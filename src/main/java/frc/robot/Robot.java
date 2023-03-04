@@ -184,7 +184,7 @@ public class Robot extends TimedRobot {
     //mdrive.driveCartesian(-threshold(c1.getLeftY()), -threshold(c1.getLeftX()), threshold(c1.getRightX())*0.67);
 
     SmartDashboard.putNumber("angle y", getPitch());
-    SmartDashboard.putNumber("angle x", gyro.getAngle());
+    SmartDashboard.putNumber("angle x", gyro.getXComplementaryAngle());
     
     
     //balance
